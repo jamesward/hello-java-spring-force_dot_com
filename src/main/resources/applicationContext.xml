@@ -23,7 +23,7 @@
         <property name="redirectHttp10Compatible" value="false" />
     </bean>
 
-    <fss:oauth>
+    <fss:oauth default-logout-success="/" logout-from-force-dot-com="true">
         <fss:oauthInfo endpoint="http://login.salesforce.com"
                        oauth-key="#{systemEnvironment['OAUTH_CLIENT_KEY']}"
                        oauth-secret="#{systemEnvironment['OAUTH_CLIENT_SECRET']}"/>

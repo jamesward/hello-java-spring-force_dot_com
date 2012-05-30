@@ -29,6 +29,7 @@
         <div class="container">
             <a href="/" class="brand">Spring MVC and Hibernate Template</a>
             <a href="/" class="brand" id="heroku">by <strong>heroku</strong></a>
+            <a href="/spring/logout" class="btn">Logout</a>
         </div>
     </div>
 </div>
