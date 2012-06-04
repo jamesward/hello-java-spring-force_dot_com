@@ -39,5 +39,5 @@
         <servlet-name>spring</servlet-name>
         <url-pattern>/people/*</url-pattern>
     </servlet-mapping>
-    
+
 </web-app>

@@ -11,8 +11,8 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="public/css/bootstrap.css" rel="stylesheet">
-    <link href="public/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/heroku.css" rel="stylesheet">
 </head>
 
