@@ -40,4 +40,9 @@
         <url-pattern>/people/*</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/assets/*</url-pattern>
+    </servlet-mapping>
+
 </web-app>
