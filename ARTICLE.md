@@ -73,7 +73,7 @@ Now that your environment is all setup, lets grab a copy of the `hello-java-spri
 11. Select "Finish"
 
 You should now see the `hello-java-spring-force_dot_com` project in the Eclipse Project Explorer view:
-![Eclipse Project Explorer](img/project_explorer.png)
+![Eclipse Project Explorer](https://github.com/jamesward/hello-java-spring-force_dot_com/blob/master/img/project_explorer.png)
 
 Now the project needs to be setup for use with Maven.  Maven will manage the dependencies for the project.
 
@@ -106,7 +106,7 @@ Now that OAuth is configured on Salesforce.com we can run this application local
 3. Double-click on "Java Application" to create a new Run Configuration
 4. In the "Name" field specify `hello-java-spring-force_dot_com`
 5. In the "Main Class" field specify `webapp.runner.launch.Main`
-    ![New Run Configuration](img/run_config.png)
+    ![New Run Configuration](https://github.com/jamesward/hello-java-spring-force_dot_com/blob/master/img/run_config.png)
 6. Select the "Arguments" tab 
 7. Enter "src/main/webapp" in the "Program Arguments" field
 8. Select the "Environment" tab
@@ -156,7 +156,7 @@ Your application is ready to be deployed on Heroku!  Heroku uses Git for file tr
 6. Select "Finish"
 
 The application will be uploaded to Heroku where the Maven build will be run to download the dependencies and compile the application.  Once the compile has successfully completed the application will be deployed onto a [Heroku Dyno](https://devcenter.heroku.com/articles/dynos) and the application will be started.  Once that process is complete you will see the output in Eclipse:
-![Push to Heroku](img/push_heroku.png)
+![Push to Heroku](https://github.com/jamesward/hello-java-spring-force_dot_com/blob/master/img/push_heroku.png)
 
 Now test your application on Heroku by opening the "people" page in your browser using "https" as the protocol.  For instance:  
 [https://severe-sunset-4637.herokuapp.com/people/](https://severe-sunset-4637.herokuapp.com/people/)
