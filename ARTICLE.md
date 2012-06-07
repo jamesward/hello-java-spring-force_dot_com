@@ -395,6 +395,10 @@ The user interface for the web application is provided by the `src/main/java/com
 
 ### Further Learning
 
+In the webinar we also demonstrated Chatter integration and Real-time Push with the Pusher add-on.  The source for those projects is at:  
+[https://github.com/anandbn/spring-mvc-chatter](https://github.com/anandbn/spring-mvc-chatter)  
+[https://github.com/anandbn/chatter-notify-pusher](https://github.com/anandbn/chatter-notify-pusher)
+
 This example is just the basics of running Java applications on Heroku that integrate with Force.com.  If want to learn more about Java on Heroku, check out:  
 [https://devcenter.heroku.com/articles/java-learn-more](https://devcenter.heroku.com/articles/java-learn-more)
 
